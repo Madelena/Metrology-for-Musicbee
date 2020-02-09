@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	// Based on Rdio Style
+
+	<settings enableScaling="true" />
+
+	<!-- Background Cover -->
+	<element type="BackgroundAlbumCover" brightness="0.2" refreshInterval="EndOfTrack"/>
+
+	<!-- Background Gallery -->
+	<element name="#Gallery" type="Gallery" x="0" y="0" widthDock="x:Panel.Right" width="0" heightDock="y:Panel.Bottom" height="0" aspectRatio="zoomKeep" fillColor="192,0,0,0" interval="30" brightness="0.2" tags="artist" />
+	<element type="Block" xAnchor="#Gallery.Left" x="0" yAnchor="#Gallery.Top" y="0" widthDock="x:#Gallery.Right" width="0" heightDock="y:#Gallery.Bottom" height="0" bg="245,0,0,0"/>
+
+	<!-- Album Cover -->
+	<element name="#Spacer" type="Block" xAnchor="#Gallery.Left" x="0" yAnchor="#Gallery.Top" y="0" widthDock="Panel.Height.10" width="0" heightDock="Panel.Height.10" height="0" bg="0,0,0,0"/>
+	<element type="AlbumCover" x="-100" y="-100" width="10" height="10" min="10" max="10"/>
+	<element name="#Cover" type="AlbumCover" xAnchor="#Spacer.Right" x="0" yAnchor="Panel.10" y="0" align="Top.Left" widthDock="Panel.Height.66" width="0" heightDock="Panel.Height.66" height="0" brightness="1.0"/>
+
+	<!-- Album Info -->
+	<element type="Field" id="Title" xAnchor="#Cover.Left" x="-20" yAnchor="#Cover.Bottom" y="40" widthDock="Panel.70" width="0" align="left" font="Segoe UI Semibold" style="Regular" size="32" fg="255,255,255" />
+	<element type="Field" id="Album" xAnchor="#Cover.Left" x="-10" yAnchor="#Cover.Bottom" y="120" widthDock="x:#Cover.Right" width="0" align="left" font="Segoe UI" style="Regular" size="16" fg="200,200,200" />
+	<element type="Field" id="AlbumArtist" xAnchor="#Cover.Left" x="-10" yAnchor="#Cover.Bottom" y="164" widthDock="x:#Cover.Right" width="0" align="left" font="Segoe UI" style="Regular" size="16" fg="255,255,255" />
+
+	<!-- Up Next -->
+	<element type="Text" xAnchor="Panel.75" x="0" yAnchor="#Cover.Bottom" y="48" widthDock="Panel.20" width="0" align="left" font="Segoe UI" style="Bold" size="8" fg="192,192,192">UP NEXT</element>
+	<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-5" yAnchor="#Cover.Bottom" y="72" widthDock="Panel.20" width="0" align="left" font="Segoe UI Semibold" style="Regular" size="16" fg="192,192,192"><child id="Title" width="Panel.20"/></element>
+	<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-3" yAnchor="#Cover.Bottom" y="112" widthDock="Panel.20" width="0" align="left" font="Segoe UI" style="Regular" size="12" fg="128,128,128"><child id="Album" width="Panel.20"/></element>
+	<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-3" yAnchor="#Cover.Bottom" y="144" widthDock="Panel.20" width="0" align="left" font="Segoe UI" style="Regular" size="12" fg="192,192,192"><child id="Artist" width="Panel.20"/></element>
+
+	<!-- #Album Tracks Panel -->
+	<!-- <element type="NowPlayingList"  xAnchor="Panel.55" x="0" yAnchor="Panel.20" y="0" widthDock="Panel.Height.66" width="0" heightDock="y:Panel.80" height="0"  rowPadding="20" font="Segoe UI" style="Regular" size="12" fg="128,128,128" fg2="255,255,255" mouseOverFg="195,0,82">
+		<child id="Speaker" width="20"/>
+		<child>  </child>
+		<child id="DiscAndTrackNo" align="left" font="Segoe UI" style="Regular" size="12" width="80"/>
+		<child>  </child>
+		<child id="Title" widthDock="Panel.Height.40" width="0" />
+		<child>  </child>
+		<child id="Duration" width="80" align="right" font="Segoe UI Semibold" size="8" style="Regular"/>
+	</element> -->
+</root>

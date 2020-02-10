@@ -1,6 +1,6 @@
 # Metrology for MusicBee
 
-Metrology is a practical series of customizations and redesigns for bringing a bold, clear, and consistent user experience to various Windows and Android apps. Its design language is based on Metro and Fluent design systems pioneered by Microsoft Design since the 2010s.
+Metrology is a practical series of app customizations and redesigns aimed at bringing a bold, clear, and consistent user experience to various Windows and Android apps. Its design language is based on [Metro](https://en.wikipedia.org/wiki/Metro_(design_language)) and [Fluent](https://www.microsoft.com/design/fluent/) design systems pioneered by Microsoft Design since the 2010s.
 
 [MusicBee](https://musicbee.com) is a highly customizable audiophile-grade music player for Windows. This is a skin for the Theater Mode feature, which displays the currently playing track in a large or full screen format.
 

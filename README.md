@@ -9,11 +9,11 @@ Feel free to redistribute and the only thing I ask is to give proper credits bac
 https://imgur.com/a/qLdDG1r
 
 ### Method A: Install using MusicBee
-!(https://i.imgur.com/DQd2vOL.png)
+![Method A Screenshot](https://i.imgur.com/DQd2vOL.png)
 Remember to add the XML file as a Theater Mode, not a Skin! Look for the right menu item marked under View > Theater Mode. If you do the latter, your MusicBee will crash hard.
 
 ### Method B: Install by copying files in Explorer
-!(https://i.imgur.com/nJtZ6S1.png)
+![Method B Screenshot](https://i.imgur.com/nJtZ6S1.png)
 Find the folder where you installed MusicBee, which is usually under C:\Program Files (x86)\MusicBee\. Go to the Plugins folder and you will find two TheaterMode folders.
 
 If you want to use the Theater Mode in a tab in the main window as a Now Playing view, or if you want to use it in Compact View, copy the xml file to TheaterMode.Embeded.

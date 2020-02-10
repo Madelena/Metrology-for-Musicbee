@@ -7,17 +7,19 @@ Metrology is a practical series of app customizations and redesigns aimed at bri
 There are 4 skins in development:
 
 ![Zune](https://i.imgur.com/FXmzjab.png)
-Zune: A detailed and accurate replica of the Zune/WP7 Music user interface.
+**Zune**: A detailed and accurate replica of the Zune/WP7 Music user interface.
 
 ![Fluent Carousel](https://i.imgur.com/woTA1aK.png)
-Fluent Carousel: Display the next 10 tracks in a perspective view.
+**Fluent Carousel**: Display the next 10 tracks in a perspective view.
 
 ![Fluent](https://i.imgur.com/cVU1DYu.jpg)
-Fluent: A bold and clean UI that fits well with Windows 10.
+**Fluent**: A bold and clean UI that fits well with Windows 10.
 
 Optionally, an even cleaner version with no controls is available.
 
 ## How to Install
+
+Download the latest release here: https://github.com/Madelena/Metrology-for-Musicbee/releases
 
 ### Method A: Install using MusicBee
 ![Method A Screenshot](https://i.imgur.com/DQd2vOL.png)

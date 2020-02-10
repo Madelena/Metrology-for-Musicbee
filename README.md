@@ -1,14 +1,20 @@
 # Metrology-for-Musicbee
 
-![Zune](https://imgur.com/a/qLdDG1r)
-Zune
+Metrology is a practical series of customizations and redesigns for various Windows and Android apps, with the goal of bringing a bold, clear, and consistent user experience based on Metro and Fluent design systems pioneered by Microsoft Design since the 2010s.
+
+MusicBee is a highly customizable audiophile-grade music player for Windows. This is a skin for the Theater Mode feature, which displays the currently playing track in a large or full screen format.
+
+There are 4 skins in development:
+
+![Zune](https://i.imgur.com/FXmzjab.png)
+Zune: A detailed and accurate replica of the Zune/WP7 Music user interface.
 
 ![Fluent](https://i.imgur.com/cVU1DYu.jpg)
-Fluent
+Fluent: A bold and clean UI that fits well with Windows 10.
+Optionally, an even cleaner version with no controls is available.
 
 ![Fluent Carousel](https://i.imgur.com/XTp3cg7.png)
-Fluent Carousel
-
+Fluent Carousel: Display the next 10 tracks in a perspective view.
 
 ## How to Install
 

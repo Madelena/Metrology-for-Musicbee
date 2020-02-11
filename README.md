@@ -40,6 +40,7 @@ If you want to use the Theater Mode as a full screen window or its own window, c
 ## Credits
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 Additionally, I would appreciate proper credits back to me if redistributed or modified. That would help my livelihood since design is [my career](https://MadelenaMak.com).

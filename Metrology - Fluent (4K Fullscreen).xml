@@ -90,6 +90,6 @@
 	<element type="Text" xAnchor="#NowPlaying.100" x="-192" yAnchor="#Cover.Bottom" y="256" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="40" fg="255,255,255" fg2="128,128,128" mouseOverFg="195,0,82" onClick="OpenAutoHidePanel:#PanelLyrics">&#xE90B;</element>
 
 	<!-- Time -->
-	<element type="Time" xAnchor="#NowPlaying.100" x="-144" yAnchor="#Cover.Top" y="0" width="100" align="right" font="Segoe UI" style="Regular" size="24" fg="255,255,255" />
+	<element type="Time" xAnchor="#NowPlaying.100" x="-144" yAnchor="#Cover.Top" y="0" width="200" align="right" font="Segoe UI" style="Regular" size="24" fg="255,255,255" />
 
 </root>

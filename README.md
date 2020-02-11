@@ -38,6 +38,10 @@ If you want to use the Theater Mode as a full screen window or its own window, c
 * Windows 10 with the Segoe MDL2 Assets font. Without it all the icons won't work. If you aren't on Windows 10 1903 or later, download the font here: https://aka.ms/SegoeFonts
 
 ## Credits
-Please feel free to redistribute and the only thing I ask is to give proper credits back to me. That would help my livelihood since design is [my career](https://MadelenaMak.com).
+
+![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Additionally, I would appreciate proper credits back to me if redistributed or modified. That would help my livelihood since design is [my career](https://MadelenaMak.com).
 
 The initial code was partially based on the Rdio Theater Mode view.

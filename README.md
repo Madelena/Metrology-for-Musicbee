@@ -2,9 +2,9 @@
 
 Metrology is a practical series of app customizations and redesigns aimed at bringing a bold, clear, and consistent user experience to various Windows and Android apps. Its design language is based on [Metro](https://en.wikipedia.org/wiki/Metro_(design_language)) and [Fluent](https://www.microsoft.com/design/fluent/) design systems pioneered by Microsoft Design since the 2010s.
 
-[MusicBee](https://getmusicbee.com) is a highly customizable audiophile-grade music player for Windows. This is a skin for the Theater Mode feature, which displays the currently playing track in a large or full screen format.
+[MusicBee](https://getmusicbee.com) is a highly customizable audiophile-grade music player for Windows. This is a skin for the Theater Mode, which displays the currently playing track in a large or full screen format.
 
-There are 4 skins in development:
+There are 5 skins in development:
 
 ![Zune](https://i.imgur.com/FXmzjab.png)
 **Zune**: A detailed and accurate replica of the Zune/WP7 Music user interface.
@@ -15,7 +15,7 @@ There are 4 skins in development:
 ![Fluent](https://i.imgur.com/cVU1DYu.jpg)
 **Fluent**: A bold and clean UI that fits well with Windows 10.
 
-Optionally, an even cleaner version with no controls is available.
+Optionally, a 4K fullscreen version and a clean version with no controls are available.
 
 ## How to Install
 
@@ -23,7 +23,7 @@ Download the latest release here: https://github.com/Madelena/Metrology-for-Musi
 
 ### Method A: Install using MusicBee
 ![Method A Screenshot](https://i.imgur.com/DQd2vOL.png)
-Remember to add the XML file as a Theater Mode, not a Skin! Look for the right menu item marked under View > Theater Mode. If you do the latter, your MusicBee will crash hard.
+Remember to add the XML file as a Theater Mode, not a Skin! Look for the right menu item marked under View > Theater Mode. If you do the latter, your MusicBee will *crash hard*.
 
 ### Method B: Install by copying files in Explorer
 ![Method B Screenshot](https://i.imgur.com/nJtZ6S1.png)

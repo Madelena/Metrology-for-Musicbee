@@ -23,7 +23,7 @@ Download the latest release here: https://github.com/Madelena/Metrology-for-Musi
 
 ### Method A: Install using MusicBee
 ![Method A Screenshot](https://i.imgur.com/DQd2vOL.png)
-Remember to add the XML file as a Theater Mode, not a Skin! Look for the right menu item marked under View > Theater Mode. If you do the latter, your MusicBee will *crash hard*.
+Remember to add the XML file as a Theater Mode Skin, not a normal Skin! Look for the right menu item marked under View > Theater Mode. If you make the mistake of installing as a normal Skin, your MusicBee will *crash hard*.
 
 ### Method B: Install by copying files in Explorer
 ![Method B Screenshot](https://i.imgur.com/nJtZ6S1.png)

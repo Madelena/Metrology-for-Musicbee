@@ -16,18 +16,18 @@ Metrology is a practical series of app customizations and redesigns aimed at bri
 ## Skins
 There are 5 skins in development:
 
-![Zune](https://i.imgur.com/FXmzjab.png)
+<img src="https://i.imgur.com/FXmzjab.png" width="75%" alt="Zune"/>
 **Zune**: A detailed and accurate replica of the Zune/WP7 Music user interface.
 
-![Fluent Carousel](https://i.imgur.com/woTA1aK.png)
+<img alt="Fluent Carousel" src="https://i.imgur.com/woTA1aK.png" width="75%"/>
 **Fluent Carousel**: Display the next 10 tracks in a perspective view.
 
-![Fluent](https://i.imgur.com/cVU1DYu.jpg)
+<img alt="Fluent" src="https://i.imgur.com/cVU1DYu.jpg" width="75%"/>
 **Fluent**: A bold and clean UI that fits well with Windows 10.
 
 Optionally, a 4K fullscreen version is available.
 
-![Fluent Wall](https://i.imgur.com/9cv1bGp.png)
+<img alt="Fluent Wall" src="https://i.imgur.com/9cv1bGp.png" width="75%"/>
 **Fluent Wall**: Display the next 28 tracks on a grid backdrop in a randomized order.
 
 ## How to Install
@@ -39,7 +39,7 @@ Optionally, a 4K fullscreen version is available.
 5. Copy the xml files to TheaterMode.List, if you want to use the Theater Mode as a full screen window or its own window.
 
 The end result should look something like this:
-![Method B Screenshot](https://i.imgur.com/nJtZ6S1.png)
+<img alt="Method B Screenshot" src="https://i.imgur.com/nJtZ6S1.png" width="50%"/>
 
 **IMPORTANT**: Remember to add the XML file as a Theater Mode Skin, not a normal Skin! Look for the right folder! If you make the mistake of installing as a normal Skin under the Skins folder, your MusicBee will *crash hard*.
 
@@ -51,27 +51,34 @@ There are 3 ways to use Theater Mode on MusicBee.
 
 ### Use Case 1: Use on the Now Playing tab
 The Now Playing tab fills the entire window with information about the now playing track. By default, the Now Playing tab should be visible. You can switch the view to Metrology with the header menu hidden at the top left on the text that says "Now Playing":
-![Now Playing tab](https://i.imgur.com/DSb9KSV.png)
+
+<img alt="Now Playing tab" src="https://i.imgur.com/DSb9KSV.png" width="50%"/>
 
 ### Use Case 2: Use as a Full Screen visual
 You can fill the entire screen up with Metrology, by selecting it on the View > Theater Mode menu:
-![Theater Mode menu](https://i.imgur.com/lfinLHX.png)
+
+<img alt="Theater Mode menu" src="https://i.imgur.com/lfinLHX.png" width="50%"/>
 
 ### Use Case 3: Use on the Compact Player window
 The Compact Player view floats the music player in a small window. You can access Compact Player from the View menu:
-![Compact Player Step 1](https://i.imgur.com/V0UiiNd.png)
+
+<img alt="Compact Player Step 1" src="https://i.imgur.com/V0UiiNd.png" width="50%"/>
 
 And then switch to Metrology with the main menu on the Compact Player window:
-![Compact Player Step 2](https://i.imgur.com/1xwpEhS.png)
+
+<img alt="Compact Player Step 2" src="https://i.imgur.com/1xwpEhS.png" width="50%"/>
 
 To exit Compact Player, click Maximize (the square button) at the top right of the window.
 
 ## How to Use
 In a few skins, the player controls are hidden from view for aesthetics. To reveal them, move your cursor over the bottom right area where the UP NEXT track description is:
-![Reveal player controls](https://i.imgur.com/oR8otdL.gif)
+
+<img alt="Reveal player controls" src="https://i.imgur.com/oR8otdL.gif" width="50%"/>
 
 The buttons are pretty straightforward. Here's what they do from left to right:
-![Player Controls](https://i.imgur.com/BnlG9RC.png)
+
+<img alt="Player Controls" src="https://i.imgur.com/BnlG9RC.png" width="50%"/>
+
 - Previous Track button
 - Play / Pause button
 - Next Track button
@@ -79,7 +86,8 @@ The buttons are pretty straightforward. Here's what they do from left to right:
 - More button: Reveals the music queue, lyrics, and artist biography.
 
 In some Fluent skins, the album cover can be resized to reveal a larger album cover more player controls (Progress Bar, Last.fm Love button, Shuffle and Repeat buttons):
-![Resize Button](https://i.imgur.com/FSz2rsJ.gif)
+
+<img alt="Resize Button" src="https://i.imgur.com/FSz2rsJ.gif" width="50%"/>
 
 ## System Requirements
 * MusicBee 3.x

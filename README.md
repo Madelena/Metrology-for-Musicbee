@@ -20,15 +20,15 @@ There are 5 skins in development:
 
 <img src="https://i.imgur.com/FXmzjab.png" width="75%" alt="Zune"/>
 
-**Fluent Carousel**: Display the next 10 tracks in a perspective view.
+**Fluent Carousel**: A striking perspective view for showing the next 10 tracks.
 
 <img alt="Fluent Carousel" src="https://i.imgur.com/woTA1aK.png" width="75%"/>
 
-**Fluent**: A bold and clean UI that fits well with Windows 10. (Optionally, a 4K fullscreen version is available.)
+**Fluent**: A bold and clean UI that fits well with Windows 10. Optionally, a 4K fullscreen version is available.
 
 <img alt="Fluent" src="https://i.imgur.com/cVU1DYu.jpg" width="75%"/>
 
-**Fluent Wall**: Display the next 28 tracks on a grid backdrop in a randomized order.
+**Fluent Wall**: A beautiful display of the next dozens of tracks on a grid backdrop.
 
 <img alt="Fluent Wall" src="https://i.imgur.com/9cv1bGp.png" width="75%"/>
 

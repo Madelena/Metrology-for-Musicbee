@@ -36,6 +36,17 @@ If you want to use the Theater Mode in a tab in the main window as a Now Playing
 
 If you want to use the Theater Mode as a full screen window or its own window, copy the xml file to TheaterMode.List.
 
+## How to Use
+
+There are 3 ways to use Theater Mode on MusicBee.
+
+### Use Case 1: Use on the Now Playing tab
+
+### Use Case 2: Use as a Full Screen visual
+
+### Use Case 3: Use on the Compact View window
+
+
 ## System Requirements
 * MusicBee 3.x
 * Windows 10 with the Segoe MDL2 Assets font. Without it all the icons won't work. If you aren't on Windows 10 1903 or later, download the font here: https://aka.ms/SegoeFonts

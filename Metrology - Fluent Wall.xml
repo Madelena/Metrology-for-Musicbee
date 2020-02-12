@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	// Based on Rdio Style
+
+	<settings enableScaling="true" />
+
+	<!-- Background Cover -->
+	<!-- <element type="BackgroundAlbumCover" brightness="0.2" refreshInterval="EndOfTrack"/> -->
+
+	<!-- Background Gallery -->
+	<!-- <element name="#Gallery" type="Gallery" x="0" y="0" widthDock="x:Panel.Right" width="0" heightDock="y:Panel.Bottom" height="0" aspectRatio="zoomKeep" fillColor="192,0,0,0" interval="30" brightness="0.2" tags="artist" /> -->
+
+	<!-- Resizable Album Cover -->
+	<element name="#Spacer" type="Block" xAnchor="#Gallery.Left" x="0" yAnchor="#Gallery.Top" y="0" widthDock="Panel.Height.10" width="0" heightDock="Panel.Height.10" height="0" bg="0,0,0,0"/>
+	<element name="#SpacerR" type="Block" xAnchor="Panel.Right" x="0" yAnchor="#Gallery.Top" y="0" widthDock="Panel.Height.10" width="0" heightDock="Panel.Height.10" height="0" bg="0,255,0,0" align="Top.Right"/>
+
+	<element name="#Column_A" type="Block" xAnchor="#Spacer.Right" x="0" y="0" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height" height="0" bg="0,255,0,0"/>
+	<element name="#Column_B" type="Block" xAnchor="#Column_A.Right" x="0" y="0" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height" height="0" bg="0,192,0,0"/>
+	<element name="#Column_C" type="Block" xAnchor="#Column_B.Right" x="0" y="0" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height" height="0" bg="0,128,0,0"/>
+	<element name="#Column_D" type="Block" xAnchor="#Column_C.Right" x="0" y="0" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height" height="0" bg="0,64,0,0"/>
+	<element name="#Column_E" type="Block" xAnchor="#Column_D.Right" x="0" y="0" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height" height="0" bg="0,64,0,0"/>
+	<element name="#Column_F" type="Block" xAnchor="#Column_E.Right" x="0" y="0" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height" height="0" bg="0,64,0,0"/>
+
+	<element name="#Row_1" type="Block" x="0" yAnchor="Panel.10" y="0" widthDock="Panel.Width" width="0" heightDock="Panel.Height.33" height="0" bg="0,0,0,255"/>
+	<element name="#Row_2" type="Block" x="0" yAnchor="Panel.43" y="0" widthDock="Panel.Width" width="0" heightDock="Panel.Height.33" height="0" bg="0,0,0,255"/>
+
+	<element type="AlbumCover" x="-100" y="-100" width="10" height="10" min="10" max="10"/>
+
+	<element name="#Cover_0Z" type="AlbumCover" id="Albums[14]" xAnchor="#Column_A.Left" x="0" yAnchor="#Row_1.Top" y="0" align="Bottom.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_0A" type="AlbumCover" id="Albums[8]" xAnchor="#Column_B.Left" x="0" yAnchor="#Row_1.Top" y="0" align="Bottom.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_0B" type="AlbumCover" id="Albums[20]" xAnchor="#Column_C.Left" x="0" yAnchor="#Row_1.Top" y="0" align="Bottom.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_0C" type="AlbumCover" id="Albums[18]" xAnchor="#Column_D.Left" x="0" yAnchor="#Row_1.Top" y="0" align="Bottom.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_0D" type="AlbumCover" id="Albums[17]" xAnchor="#Column_E.Left" x="0" yAnchor="#Row_1.Top" y="0" align="Bottom.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_0E" type="AlbumCover" id="Albums[6]" xAnchor="#Column_F.Left" x="0" yAnchor="#Row_1.Top" y="0" align="Bottom.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_0F" type="AlbumCover" id="Albums[26]" xAnchor="#Column_F.Left" x="0" yAnchor="#Row_1.Top" y="0" align="Bottom.Left" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+
+	<element name="#Cover_1Z" type="AlbumCover" id="Albums[13]" xAnchor="#Column_A.Left" x="0" yAnchor="#Row_2.Top" y="0" align="Bottom.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_1A" type="AlbumCover" id="Albums[11]" xAnchor="#Column_B.Left" x="0" yAnchor="#Row_2.Top" y="0" align="Bottom.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_1B" type="AlbumCover" id="Albums[10]" xAnchor="#Column_C.Left" x="0" yAnchor="#Row_2.Top" y="0" align="Bottom.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_1C" type="AlbumCover" id="Albums[16]" xAnchor="#Column_D.Left" x="0" yAnchor="#Row_2.Top" y="0" align="Bottom.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_1D" type="AlbumCover" id="Albums[1]" xAnchor="#Column_E.Left" x="0" yAnchor="#Row_2.Top" y="0" align="Bottom.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_1E" type="AlbumCover" id="Albums[4]" xAnchor="#Column_F.Left" x="0" yAnchor="#Row_2.Top" y="0" align="Bottom.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_1F" type="AlbumCover" id="Albums[23]" xAnchor="#Column_F.Left" x="0" yAnchor="#Row_2.Top" y="0" align="Bottom.Left" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+
+	<element name="#Cover_2Z" type="AlbumCover" id="Albums[12]" xAnchor="#Column_A.Left" x="0" yAnchor="#Row_2.Top" y="0" align="Top.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_2B" type="AlbumCover" id="Albums[9]" xAnchor="#Column_C.Left" x="0" yAnchor="#Row_2.Top" y="0" align="Top.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_2C" type="AlbumCover" id="Albums[7]" xAnchor="#Column_D.Left" x="0" yAnchor="#Row_2.Top" y="0" align="Top.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_2D" type="AlbumCover" id="Albums[3]" xAnchor="#Column_E.Left" x="0" yAnchor="#Row_2.Top" y="0" align="Top.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_2E" type="AlbumCover" id="Albums[5]" xAnchor="#Column_F.Left" x="0" yAnchor="#Row_2.Top" y="0" align="Top.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_2F" type="AlbumCover" id="Albums[25]" xAnchor="#Column_F.Left" x="0" yAnchor="#Row_2.Top" y="0" align="Top.Left" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+
+	<element name="#Cover_3Z" type="AlbumCover" id="Albums[12]" xAnchor="#Column_A.Left" x="0" yAnchor="#Row_2.Bottom" y="0" align="Top.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_3A" type="AlbumCover" id="Albums[2]" xAnchor="#Column_B.Left" x="0" yAnchor="#Row_2.Bottom" y="0" align="Top.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_3B" type="AlbumCover" id="Albums[15]" xAnchor="#Column_C.Left" x="0" yAnchor="#Row_2.Bottom" y="0" align="Top.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_3C" type="AlbumCover" id="Albums[19]" xAnchor="#Column_D.Left" x="0" yAnchor="#Row_2.Bottom" y="0" align="Top.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_3D" type="AlbumCover" id="Albums[22]" xAnchor="#Column_E.Left" x="0" yAnchor="#Row_2.Bottom" y="0" align="Top.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_3E" type="AlbumCover" id="Albums[21]" xAnchor="#Column_F.Left" x="0" yAnchor="#Row_2.Bottom" y="0" align="Top.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+	<element name="#Cover_3F" type="AlbumCover" id="Albums[24]" xAnchor="#Column_F.Left" x="0" yAnchor="#Row_2.Bottom" y="0" align="Top.Left" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+
+	<element type="Block" x="0" y="0" widthDock="Panel" width="0" heightDock="Panel" height="0" bg="232,0,0,0"/>
+
+	<element name="#Cover" type="AlbumCover" id="Albums[0]" xAnchor="#Column_B.Left" x="0" yAnchor="#Row_2.Top" y="0" align="Top.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
+
+	<!-- Album Info -->
+	<element type="Field" id="Title" xAnchor="#Cover.Left" x="-20" yAnchor="#Cover.Bottom" y="40" widthDock="Panel.65" width="0" align="left" font="Segoe UI Semibold" style="Regular" size="32" fg="255,255,255" />
+	<element type="Field" id="Album" xAnchor="#Cover.Left" x="-10" yAnchor="#Cover.Bottom" y="120" widthDock="x:#Cover.Right" width="0" align="left" font="Segoe UI" style="Regular" size="16" fg="200,200,200" />
+	<element type="Field" id="AlbumArtist" xAnchor="#Cover.Left" x="-10" yAnchor="#Cover.Bottom" y="164" widthDock="x:#Cover.Right" width="0" align="left" font="Segoe UI" style="Regular" size="16" fg="255,255,255" />
+
+	<!-- Up Next -->
+	<element type="Text" xAnchor="Panel.75" x="0" yAnchor="#Cover.Bottom" y="48" widthDock="Panel.20" width="0" align="left" font="Segoe UI" style="Bold" size="8" fg="192,192,192" mouseOverFg="0,192,192,192">UP NEXT</element>
+	<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-5" yAnchor="#Cover.Bottom" y="72" widthDock="x:#SpacerR.Left" width="0" align="left" font="Segoe UI Semibold" style="Regular" size="16" fg="192,192,192" mouseOverFg="0,192,192,192"><child id="Title" width="Panel.20"/></element>
+	<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-3" yAnchor="#Cover.Bottom" y="112" widthDock="x:#SpacerR.Left" width="0" align="left" font="Segoe UI" style="Regular" size="12" fg="128,128,128" mouseOverFg="0,192,192,192"><child id="Album" width="Panel.20"/></element>
+	<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-3" yAnchor="#Cover.Bottom" y="144" widthDock="x:#SpacerR.Left" width="0" align="left" font="Segoe UI" style="Regular" size="12" fg="192,192,192" mouseOverFg="0,192,192,192"><child id="Artist" width="Panel.20"/></element>
+</root>

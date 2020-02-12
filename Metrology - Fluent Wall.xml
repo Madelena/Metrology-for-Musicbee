@@ -10,7 +10,7 @@
 	<!-- Background Gallery -->
 	<!-- <element name="#Gallery" type="Gallery" x="0" y="0" widthDock="x:Panel.Right" width="0" heightDock="y:Panel.Bottom" height="0" aspectRatio="zoomKeep" fillColor="192,0,0,0" interval="30" brightness="0.2" tags="artist" /> -->
 
-	<!-- Resizable Album Cover -->
+	<!-- Album Cover Grid -->
 	<element name="#Spacer" type="Block" xAnchor="#Gallery.Left" x="0" yAnchor="#Gallery.Top" y="0" widthDock="Panel.Height.10" width="0" heightDock="Panel.Height.10" height="0" bg="0,0,0,0"/>
 	<element name="#SpacerR" type="Block" xAnchor="Panel.Right" x="0" yAnchor="#Gallery.Top" y="0" widthDock="Panel.Height.10" width="0" heightDock="Panel.Height.10" height="0" bg="0,255,0,0" align="Top.Right"/>
 
@@ -57,7 +57,7 @@
 	<element name="#Cover_3E" type="AlbumCover" id="Albums[21]" xAnchor="#Column_F.Left" x="0" yAnchor="#Row_2.Bottom" y="0" align="Top.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
 	<element name="#Cover_3F" type="AlbumCover" id="Albums[24]" xAnchor="#Column_F.Left" x="0" yAnchor="#Row_2.Bottom" y="0" align="Top.Left" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
 
-	<element type="Block" x="0" y="0" widthDock="Panel" width="0" heightDock="Panel" height="0" bg="232,0,0,0"/>
+	<element type="Block" x="0" y="0" widthDock="Panel" width="0" heightDock="Panel" height="0" bg="240,0,0,0"/>
 
 	<element name="#Cover" type="AlbumCover" id="Albums[0]" xAnchor="#Column_B.Left" x="0" yAnchor="#Row_2.Top" y="0" align="Top.Right" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0"/>
 
@@ -67,8 +67,25 @@
 	<element type="Field" id="AlbumArtist" xAnchor="#Cover.Left" x="-10" yAnchor="#Cover.Bottom" y="164" widthDock="x:#Cover.Right" width="0" align="left" font="Segoe UI" style="Regular" size="16" fg="255,255,255" />
 
 	<!-- Up Next -->
-	<element type="Text" xAnchor="Panel.75" x="0" yAnchor="#Cover.Bottom" y="48" widthDock="Panel.20" width="0" align="left" font="Segoe UI" style="Bold" size="8" fg="192,192,192" mouseOverFg="0,192,192,192">UP NEXT</element>
-	<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-5" yAnchor="#Cover.Bottom" y="72" widthDock="x:#SpacerR.Left" width="0" align="left" font="Segoe UI Semibold" style="Regular" size="16" fg="192,192,192" mouseOverFg="0,192,192,192"><child id="Title" width="Panel.20"/></element>
-	<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-3" yAnchor="#Cover.Bottom" y="112" widthDock="x:#SpacerR.Left" width="0" align="left" font="Segoe UI" style="Regular" size="12" fg="128,128,128" mouseOverFg="0,192,192,192"><child id="Album" width="Panel.20"/></element>
-	<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-3" yAnchor="#Cover.Bottom" y="144" widthDock="x:#SpacerR.Left" width="0" align="left" font="Segoe UI" style="Regular" size="12" fg="192,192,192" mouseOverFg="0,192,192,192"><child id="Artist" width="Panel.20"/></element>
+	<element type="Block" xAnchor="#Column_C.Left" x="0" yAnchor="#Cover.Bottom" y="0" widthDock="x:Panel.Right" width="0" heightDock="y:Panel.Bottom" height="0" fg="255,255,255,255" mouseOverFg="0,255,255,255" bg="0,0,0,0" mouseOverBg="0,0,0,0">
+		<element type="Text" xAnchor="Panel.75" x="0" yAnchor="#Cover.Bottom" y="48" widthDock="Panel.20" width="0" align="left" font="Segoe UI" style="Bold" size="8" fg="192,192,192" mouseOverFg="0,192,192,192">UP NEXT</element>
+		<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-5" yAnchor="#Cover.Bottom" y="72" widthDock="x:#SpacerR.Left" width="0" align="left" font="Segoe UI Semibold" style="Regular" size="16" fg="192,192,192" mouseOverFg="0,192,192,192"><child id="Title" width="Panel.20"/></element>
+		<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-3" yAnchor="#Cover.Bottom" y="112" widthDock="x:#SpacerR.Left" width="0" align="left" font="Segoe UI" style="Regular" size="12" fg="128,128,128" mouseOverFg="0,192,192,192"><child id="Album" width="Panel.20"/></element>
+		<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-3" yAnchor="#Cover.Bottom" y="144" widthDock="x:#SpacerR.Left" width="0" align="left" font="Segoe UI" style="Regular" size="12" fg="192,192,192" mouseOverFg="0,192,192,192"><child id="Artist" width="Panel.20"/></element>
+	</element>
+
+	<!-- Music Controls -->
+	<element type="PlayerBar" xAnchor="Panel.0" x="0" yAnchor="Panel.0" y="0" width="0" height="0"/>
+
+	<element type="Block" xAnchor="#Column_C.Left" x="0" yAnchor="#Cover.Bottom" y="0" widthDock="x:Panel.Right" width="0" heightDock="y:Panel.Bottom" height="0" fg="0,255,255,255" mouseOverFg="255,255,255,255" bg="0,0,0,0" mouseOverBg="0,0,0,0">
+		<element type="Text" xAnchor="#SpacerR.Left" x="-480" yAnchor="#Cover.Bottom" y="164" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="PlayPrevious">&#xE100;</element>
+
+		<element type="Text" xAnchor="#SpacerR.Left" x="-336" yAnchor="#Cover.Bottom" y="164" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="PlayPause" visibleTrigger="Playing">&#xE103;</element>
+		<element type="Text" xAnchor="#SpacerR.Left" x="-336" yAnchor="#Cover.Bottom" y="164" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="PlayPause" visibleTrigger="NotPlaying">&#xE102;</element>
+
+		<element type="Text" xAnchor="#SpacerR.Left" x="-192" yAnchor="#Cover.Bottom" y="164" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="PlayNext">&#xE101;</element>
+
+		<!-- Toolbar -->
+		<element type="Text" xAnchor="#SpacerR.Left" x="-48" yAnchor="#Cover.Bottom" y="164" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="OpenNowPlayingAssistant">&#xE094;</element>
+	</element>
 </root>

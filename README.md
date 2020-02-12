@@ -15,7 +15,10 @@ There are 5 skins in development:
 ![Fluent](https://i.imgur.com/cVU1DYu.jpg)
 **Fluent**: A bold and clean UI that fits well with Windows 10.
 
-Optionally, a 4K fullscreen version and a clean version with no controls are available.
+Optionally, a 4K fullscreen version is available.
+
+![Fluent Wall](https://i.imgur.com/9cv1bGp.png)
+**Fluent Wall**: Display the next 28 tracks on a grid backdrop in a randomized order.
 
 ## How to Install
 

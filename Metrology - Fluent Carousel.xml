@@ -31,7 +31,7 @@
 	<element name="#Cover_03" type="AlbumCover" id="Tracks[3]" xAnchor="#SpacerC.62.5" x="0" yAnchor="#Cover.Bottom" y="-30" align="Bottom.Right" widthDock="Panel.Height.51" width="0" heightDock="Panel.Height.51" height="0" brightness="0.29"/>
 	<element name="#Cover_02" type="AlbumCover" id="Tracks[2]" xAnchor="#SpacerC.47.3" x="0" yAnchor="#Cover.Bottom" y="-20" align="Bottom.Right" widthDock="Panel.Height.56" width="0" heightDock="Panel.Height.56" height="0" brightness="0.44"/>
 	<element name="#Cover_01" type="AlbumCover" id="Tracks[1]" xAnchor="#SpacerC.27" x="0" yAnchor="#Cover.Bottom" y="-10" align="Bottom.Right" widthDock="Panel.Height.61" width="0" heightDock="Panel.Height.61" height="0" brightness="0.66"/>
-	<element name="#Cover_01" type="AlbumCover" id="Tracks[0]" xAnchor="#SpacerC.0" x="0" yAnchor="#Cover.Bottom" y="0" align="Bottom.Right" widthDock="Panel.Height.65" width="0" heightDock="Panel.Height.65" height="0" brightness="1.0"/>
+	<element name="#Cover_00" type="AlbumCover" id="Tracks[0]" xAnchor="#SpacerC.0" x="0" yAnchor="#Cover.Bottom" y="0" align="Bottom.Right" widthDock="Panel.Height.65" width="0" heightDock="Panel.Height.65" height="0" brightness="1.0"/>
 
 	<!-- Album Info -->
 	<element type="Field" id="Title" xAnchor="#Cover.Left" x="-5" yAnchor="#Cover.Bottom" y="40" widthDock="x:Panel.70" width="0" align="left" font="Segoe UI Semibold" style="Regular" size="32" fg="255,255,255" />

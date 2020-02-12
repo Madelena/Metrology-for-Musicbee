@@ -17,17 +17,21 @@ Metrology is a practical series of app customizations and redesigns aimed at bri
 There are 5 skins in development:
 
 <img src="https://i.imgur.com/FXmzjab.png" width="75%" alt="Zune"/>
+
 **Zune**: A detailed and accurate replica of the Zune/WP7 Music user interface.
 
 <img alt="Fluent Carousel" src="https://i.imgur.com/woTA1aK.png" width="75%"/>
+
 **Fluent Carousel**: Display the next 10 tracks in a perspective view.
 
 <img alt="Fluent" src="https://i.imgur.com/cVU1DYu.jpg" width="75%"/>
+
 **Fluent**: A bold and clean UI that fits well with Windows 10.
 
 Optionally, a 4K fullscreen version is available.
 
 <img alt="Fluent Wall" src="https://i.imgur.com/9cv1bGp.png" width="75%"/>
+
 **Fluent Wall**: Display the next 28 tracks on a grid backdrop in a randomized order.
 
 ## How to Install
@@ -39,6 +43,7 @@ Optionally, a 4K fullscreen version is available.
 5. Copy the xml files to TheaterMode.List, if you want to use the Theater Mode as a full screen window or its own window.
 
 The end result should look something like this:
+
 <img alt="Method B Screenshot" src="https://i.imgur.com/nJtZ6S1.png" width="50%"/>
 
 **IMPORTANT**: Remember to add the XML file as a Theater Mode Skin, not a normal Skin! Look for the right folder! If you make the mistake of installing as a normal Skin under the Skins folder, your MusicBee will *crash hard*.

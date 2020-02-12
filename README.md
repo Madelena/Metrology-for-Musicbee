@@ -36,6 +36,7 @@ If you want to use the Theater Mode as a full screen window or its own window, c
 ## System Requirements
 * MusicBee 3.x
 * Windows 10 with the Segoe MDL2 Assets font. Without it all the icons won't work. If you aren't on Windows 10 1903 or later, download the font here: https://aka.ms/SegoeFonts
+* 1080p screen resolution minimum, and the special 4K version needs a 4K screen.
 
 ## Credits
 

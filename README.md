@@ -8,6 +8,7 @@ Metrology is a practical series of app customizations and redesigns aimed at bri
 
 - [Skins](#skins)
 - [How to Install](#how-to-install)
+- [How to Load](#how-to-load)
 - [How to Use](#how-to-use)
 - [System Requirements](#system-requirements)
 - [Credits](#credits)
@@ -42,16 +43,43 @@ The end result should look something like this:
 
 **IMPORTANT**: Remember to add the XML file as a Theater Mode Skin, not a normal Skin! Look for the right folder! If you make the mistake of installing as a normal Skin under the Skins folder, your MusicBee will *crash hard*.
 
-## How to Use
+## How to Load
+
+If you're a first-timer on MusicBee, you will realize that the app can be difficult to learn initially, mainly because its navigation methods are quite old school and rather different from contemporary music players such as Spotify. However, once you get a hang of it, you can customize it exactly to your liking.
 
 There are 3 ways to use Theater Mode on MusicBee.
 
 ### Use Case 1: Use on the Now Playing tab
+The Now Playing tab fills the entire window with information about the now playing track. By default, the Now Playing tab should be visible. You can switch the view to Metrology with the header menu hidden at the top left on the text that says "Now Playing":
+![Now Playing tab](https://i.imgur.com/DSb9KSV.png)
 
 ### Use Case 2: Use as a Full Screen visual
+You can fill the entire screen up with Metrology, by selecting it on the View > Theater Mode menu:
+![Theater Mode menu](https://i.imgur.com/lfinLHX.png)
 
-### Use Case 3: Use on the Compact View window
+### Use Case 3: Use on the Compact Player window
+The Compact Player view floats the music player in a small window. You can access Compact Player from the View menu:
+![Compact Player Step 1](https://i.imgur.com/V0UiiNd.png)
 
+And then switch to Metrology with the main menu on the Compact Player window:
+![Compact Player Step 2](https://i.imgur.com/1xwpEhS.png)
+
+To exit Compact Player, click Maximize (the square button) at the top right of the window.
+
+## How to Use
+In a few skins, the player controls are hidden from view for aesthetics. To reveal them, move your cursor over the bottom right area where the UP NEXT track description is:
+![Reveal player controls](https://i.imgur.com/oR8otdL.gif)
+
+The buttons are pretty straightforward. Here's what they do from left to right:
+![Player Controls](https://i.imgur.com/BnlG9RC.png)
+- Previous Track button
+- Play / Pause button
+- Next Track button
+- Search button: Opens up the "Now Playing Assistant", which allows you to search for a different track to play quickly.
+- More button: Reveals the music queue, lyrics, and artist biography.
+
+In some Fluent skins, the album cover can be resized to reveal a larger album cover more player controls (Progress Bar, Last.fm Love button, Shuffle and Repeat buttons):
+![Resize Button](https://i.imgur.com/FSz2rsJ.gif)
 
 ## System Requirements
 * MusicBee 3.x

@@ -31,19 +31,16 @@ Optionally, a 4K fullscreen version is available.
 
 ## How to Install
 
-Download the latest release here: https://github.com/Madelena/Metrology-for-Musicbee/releases
+1. Download the latest release here: https://github.com/Madelena/Metrology-for-Musicbee/releases 
+2. Extract the zip file and you will find a bunch of xml files. Each xml file is a Theater Mode skin.
+3. Go to C:\Program Files (x86)\MusicBee\Plugins or where you installed MusicBee. In the Plugins folder, you will find two TheaterMode folders.
+4. Copy the xml files to TheaterMode.Embeded, if you want to use the Theater Mode in the Now Playing tab or in the Compact View window, 
+5. Copy the xml files to TheaterMode.List, if you want to use the Theater Mode as a full screen window or its own window.
 
-### Method A: Install using MusicBee
-![Method A Screenshot](https://i.imgur.com/DQd2vOL.png)
-Remember to add the XML file as a Theater Mode Skin, not a normal Skin! Look for the right menu item marked under View > Theater Mode. If you make the mistake of installing as a normal Skin, your MusicBee will *crash hard*.
-
-### Method B: Install by copying files in Explorer
+The end result should look something like this:
 ![Method B Screenshot](https://i.imgur.com/nJtZ6S1.png)
-Find the folder where you installed MusicBee, which is usually under C:\Program Files (x86)\MusicBee\. Go to the Plugins folder and you will find two TheaterMode folders.
 
-If you want to use the Theater Mode in a tab in the main window as a Now Playing view, or if you want to use it in Compact View, copy the xml file to TheaterMode.Embeded.
-
-If you want to use the Theater Mode as a full screen window or its own window, copy the xml file to TheaterMode.List.
+**IMPORTANT**: Remember to add the XML file as a Theater Mode Skin, not a normal Skin! Look for the right menu item marked under View > Theater Mode. If you make the mistake of installing as a normal Skin, your MusicBee will *crash hard*.
 
 ## How to Use
 

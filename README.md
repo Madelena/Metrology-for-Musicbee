@@ -40,7 +40,7 @@ Optionally, a 4K fullscreen version is available.
 The end result should look something like this:
 ![Method B Screenshot](https://i.imgur.com/nJtZ6S1.png)
 
-**IMPORTANT**: Remember to add the XML file as a Theater Mode Skin, not a normal Skin! Look for the right menu item marked under View > Theater Mode. If you make the mistake of installing as a normal Skin, your MusicBee will *crash hard*.
+**IMPORTANT**: Remember to add the XML file as a Theater Mode Skin, not a normal Skin! Look for the right folder! If you make the mistake of installing as a normal Skin under the Skins folder, your MusicBee will *crash hard*.
 
 ## How to Use
 

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	// Created by mmak.es
+	// Visit https://mmak.es for updates
+
+	<settings enableScaling="true" />
+
+	<!-- Background Cover -->
+	<element type="BackgroundAlbumCover" brightness="1" refreshInterval="EndOfTrack"/>
+
+	<!-- Background Gallery -->
+	<element name="#Gallery" type="Gallery" x="0" y="0" widthDock="x:Panel.Right" width="0" heightDock="y:Panel.Bottom" height="0" aspectRatio="zoomKeep" fillColor="192,0,0,0" interval="30" brightness="0.2" fade="0.2" tags="artist" />
+	<element type="Block" xAnchor="#Gallery.Left" x="0" yAnchor="#Gallery.Top" y="0" widthDock="x:#Gallery.Right" width="0" heightDock="y:#Gallery.Bottom" height="0" bg="224,0,0,0"/>
+
+	<!-- Spacers -->
+	<element name="#Spacer" type="Block" xAnchor="#Gallery.Left" x="0" yAnchor="#Gallery.Top" y="0" widthDock="Panel.Height.10" width="0" heightDock="Panel.Height.10" height="0" bg="0,0,0,0"/>
+	<element name="#Cover" type="Block" xAnchor="#Spacer.Right" x="0" yAnchor="Panel.10" y="0" align="Top.Left" widthDock="Panel.Height.66" width="0" heightDock="Panel.Height.66" height="0" brightness="1.0"/>
+	<element name="#SpacerR" type="Block" xAnchor="Panel.Right" x="0" yAnchor="#Gallery.Top" y="0" widthDock="Panel.Height.10" width="0" heightDock="Panel.Height.10" height="0" bg="0,255,0,0" align="Top.Right"/>
+	<element name="#SpacerC" type="Block" xAnchor="#Cover.Right" x="0" yAnchor="#Gallery.Top" y="20" widthDock="x:#SpacerR.Left" width="0" heightDock="Panel.Height.10" height="0" bg="0,255,255,0"/>
+
+	<!-- Resizable Album Cover -->
+	<element type="AlbumCover" x="-100" y="-100" width="10" height="10" min="10" max="10"/>
+
+	<element name="#CoverSmall" type="AlbumCover" id="Tracks[0]" xAnchor="#Cover.Left" x="0" yAnchor="#Cover.Bottom" y="0" align="Bottom.Left" widthDock="Panel.Height.33" width="0" heightDock="Panel.Height.33" height="0" brightness="1.0"/>
+	<autoHide name="#CoverResize" x="0" y="0" widthDock="Panel" width="0" heightDock="Panel" height="0" allowPinning="true" resizePictures="true">
+		<element name="#CoverLarge" type="AlbumCover" xAnchor="#Spacer.Right" x="0" yAnchor="Panel.10" y="0" align="Top.Left" widthDock="Panel.Height.66" width="0" heightDock="Panel.Height.66" height="0" brightness="1.0"/>
+
+		<!-- Progress Bar -->
+		<element type="ProgressBar" xAnchor="#Cover.Left" x="0" yAnchor="#Cover.Bottom" y="5" widthDock="#Cover.Right" width="0" height="2" fg="255,255,255" bg="33,255,255,255" />
+		<element type="PlayPosition" xAnchor="#Cover.Left" x="-3" yAnchor="#Cover.Bottom" y="10" width="40" reservedWidth="40" font="Segoe UI Semibold" style="Regular" size="6" fg="255,255,255" />
+		<element type="PlayDuration" xAnchor="#Cover.Right" x="-37" yAnchor="#Cover.Bottom" y="10" width="40" font="Segoe UI Semibold" align="right" style="Regular" size="6" fg="255,255,255" />
+
+		<!-- Rating -->
+		<element type="Field" xAnchor="#Cover.Right" x="8" yAnchor="#Cover.Bottom" y="-126" width="0" >
+			<child id="RatingLove" visible="MusicBeeSetting" fg="30,255,255,255" size="20"/>
+			<!-- <child id="Rating" visible="MusicBeeSetting" y="0" fg="255,255,0" fg2="30,255,255,255" size="15"/> -->
+		</element>
+
+		<!-- Shuffle / Repeat Controls -->
+		<element type="Text" xAnchor="#Cover.Right" x="10" yAnchor="#Cover.Bottom" y="-68" width="50" font="Segoe MDL2 Assets" style="Regular" size="11" fg="255,255,255" mouseOverFg="195,0,82" onClick="ShuffleToggle" visibleTrigger="ShuffleOn">&#xE14B;</element>
+		<element type="Text" xAnchor="#Cover.Right" x="10" yAnchor="#Cover.Bottom" y="-68" width="50" font="Segoe MDL2 Assets" style="Regular" size="11" fg="128,128,128" mouseOverFg="195,0,82" onClick="ShuffleToggle" visibleTrigger="ShuffleOff">&#xE14B;</element>
+		<element type="Text" xAnchor="#Cover.Right" x="10" yAnchor="#Cover.Bottom" y="-14" width="50" font="Segoe MDL2 Assets" style="Regular" size="11" fg="255,255,255" mouseOverFg="195,0,82" onClick="RepeatToggle" visibleTrigger="RepeatOn" >&#xE14A;</element>
+		<element type="Text" xAnchor="#Cover.Right" x="10" yAnchor="#Cover.Bottom" y="-14" width="50" font="Segoe MDL2 Assets" style="Regular" size="11" fg="128,128,128" mouseOverFg="195,0,82" onClick="RepeatToggle" visibleTrigger="RepeatOff" >&#xE14A;</element>
+	</autoHide>
+	
+	<element type="Block" xAnchor="#Cover.Left" x="0" yAnchor="#Cover.Bottom" y="-96" width="96" height="96" fg="0,255,255,255" mouseOverFg="255,255,255,255" bg="0,0,0,0" mouseOverBg="128,0,0,0">
+		<element type="Text" xAnchor="#Cover.Left" x="27" yAnchor="#Cover.Bottom" y="-64" width="96" height="96" font="Segoe MDL2 Assets" style="Regular" size="24" fg="0,255,255,255" fg2="255,255,255,255" mouseOverBg="128,0,0,0" mouseOverFg="195,0,82" onClick="OpenFloatingPanel:#CoverResize">&#xE740;</element>
+	</element>
+
+	<!-- Album Info -->
+	<element type="Field" id="Title" xAnchor="#Cover.Left" x="-9" yAnchor="#Cover.Bottom" y="19" widthDock="x:#SpacerR.Left" width="0" align="left" font="Segoe UI Semibold" style="Regular" size="24" fg="255,255,255" />
+	<element type="Field" id="Album" xAnchor="#Cover.Left" x="-4" yAnchor="#Cover.Bottom" y="60" widthDock="x:#Cover.Right" width="0" align="left" font="Segoe UI" style="Regular" size="11" fg="200,200,200" />
+	<element type="Field" id="Artist" xAnchor="#Cover.Left" x="-4" yAnchor="#Cover.Bottom" y="80" widthDock="x:#Cover.Right" width="0" align="left" font="Segoe UI" style="Regular" size="11" fg="255,255,255" />
+
+	<!-- #Album Tracks Panel -->
+	<autoHide name="#PanelQueue" xAnchor="#SpacerC.Left" x="0" yAnchor="#Cover.Top" y="0" widthDock="#SpacerR.Left" width="0" heightDock="y:#Cover.Bottom" height="0" fillColor="0,0,0" fg="80,80,80" fg2="96,169,23" allowPinning="true" resizePictures="true" disableHotPoint="true" >
+		<element type="Field" xAnchor="#SpacerC.10" x="20" yAnchor="#PanelQueue.0" y="0" widthDock="Panel.90" width="0" font="Segoe UI" style="Bold" size="11" fg="255,255,255" >
+			<child fg="255,255,255">QUEUE</child>
+			<child>   </child>
+			<child fg="128,128,128" onClick="OpenAutoHidePanel:#PanelLyrics">LYRICS</child>
+			<child>   </child>
+			<child fg="128,128,128" onClick="OpenAutoHidePanel:#PanelBio">BIOGRAPHY</child>
+		</element>
+		<element type="Text" xAnchor="#SpacerC.100" x="-32" yAnchor="#PanelQueue.0" y="6" width="48" font="Segoe MDL2 Assets" style="Regular" size="8" align="right" fg="255,255,255" mouseOverFg="195,0,82" onClick="OpenAutoHidePanel:#PanelQueue">&#xE106;</element>
+
+		<element name="#NowPlaying" type="NowPlayingList" xAnchor="#SpacerC.10" x="0" yAnchor="#PanelQueue.0" y="36" widthDock="x:#SpacerR.0" width="-48" heightDock="Y:#PanelQueue.Bottom" height="0" rowPadding="16" font="Segoe UI" style="Regular" size="11" fg="128,128,128" fg2="255,255,255" mouseOverFg="195,0,82" multiLine="true">
+			<child id="Speaker" width="20"/>
+			<child id="Artist" align="left" font="Segoe UI Semilight" size="11" style="Regular" />
+			<child> </child>
+			<child id="Title" align="left" font="Segoe UI Semibold" style="Regular" size="11" widthDock="x:#SpacerR.Left" width="-24"/>
+			<!-- <child id="RatingLove" fg="30,255,255,255"></child> -->
+		</element>
+	</autoHide>
+
+	<!-- Artist Info -->
+	<autoHide name="#PanelBio" xAnchor="#SpacerC.Left" x="0" yAnchor="#Cover.Top" y="0" widthDock="#SpacerR.Left" width="0" heightDock="y:#Cover.Bottom" height="0" fillColor="0,0,0" fg="80,80,80" fg2="96,169,23" allowPinning="true" resizePictures="true" disableHotPoint="true" >
+		<element type="Field" xAnchor="#SpacerC.10" x="20" yAnchor="#PanelBio.0" y="0" widthDock="Panel.90" width="0" font="Segoe UI" style="Bold" size="11" fg="255,255,255" >
+			<child fg="128,128,128" onClick="OpenAutoHidePanel:#PanelQueue">QUEUE</child>
+			<child>   </child>
+			<child fg="128,128,128" onClick="OpenAutoHidePanel:#PanelLyrics">LYRICS</child>
+			<child>   </child>
+			<child fg="255,255,255">BIOGRAPHY</child>
+		</element>
+		<element type="Text" xAnchor="#SpacerC.100" x="-32" yAnchor="#PanelBio.0" y="6" width="48" font="Segoe MDL2 Assets" style="Regular" size="8" align="right" fg="255,255,255" mouseOverFg="195,0,82" onClick="OpenAutoHidePanel:#PanelBio">&#xE106;</element>
+
+		<element type="ArtistInfo" xAnchor="#SpacerC.10" x="20" yAnchor="#PanelBio.0" y="36" widthDock="x:#SpacerR.0" width="-48" heightDock="Y:#PanelBio.Bottom" height="0" font="Segoe UI" style="Regular" size="9" fg="255,255,255" fg2="255,140,0" ></element>
+	</autoHide>
+
+	<!-- Lyrics -->
+	<autoHide name="#PanelLyrics" xAnchor="#SpacerC.Left" x="0" yAnchor="#Cover.Top" y="0" widthDock="#SpacerR.Left" width="0" heightDock="y:#Cover.Bottom" height="0" fillColor="0,0,0" fg="80,80,80" fg2="96,169,23" allowPinning="true" resizePictures="true" disableHotPoint="true" >
+		<element type="Field" xAnchor="#SpacerC.10" x="20" yAnchor="#PanelLyrics.0" y="0" widthDock="Panel.90" width="0" font="Segoe UI" style="Bold" size="11" fg="255,255,255" >
+			<child fg="128,128,128" onClick="OpenAutoHidePanel:#PanelQueue">QUEUE</child>
+			<child>   </child>
+			<child fg="255,255,255">LYRICS</child>
+			<child>   </child>
+			<child fg="128,128,128" onClick="OpenAutoHidePanel:#PanelBio">BIOGRAPHY</child>
+		</element>
+		<element type="Text" xAnchor="#SpacerC.100" x="-32" yAnchor="#PanelLyrics.0" y="6" width="48" font="Segoe MDL2 Assets" style="Regular" size="8" align="right" fg="255,255,255" mouseOverFg="195,0,82" onClick="OpenAutoHidePanel:#PanelLyrics">&#xE106;</element>
+
+		<element type="Lyrics" xAnchor="#SpacerC.10" x="20" yAnchor="#PanelLyrics.0" y="36" widthDock="x:#SpacerR.0" width="-48" heightDock="Y:#PanelLyrics.Bottom" height="0" font="Segoe UI" style="Regular" size="9" rowHeight="10" fg="255,255,255" fg2="255,140,0" ></element>
+	</autoHide>
+
+	<!-- Up Next -->
+	<element type="Block" xAnchor="#SpacerC.0" x="0" yAnchor="#Cover.Bottom" y="0" widthDock="x:Panel.Right" width="0" heightDock="y:Panel.Bottom" height="0" fg="255,255,255,255" mouseOverFg="0,255,255,255" bg="0,0,0,0" mouseOverBg="0,0,0,0">
+		<element type="Text" xAnchor="Panel.75" x="0" yAnchor="#Cover.Bottom" y="21" widthDock="Panel.20" width="0" align="left" font="Segoe UI" style="Bold" size="5.5" fg="192,192,192" mouseOverFg="0,192,192,192">UP NEXT</element>
+		<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-4" yAnchor="#Cover.Bottom" y="32" widthDock="x:#SpacerR.Left" width="0" align="left" font="Segoe UI Semibold" style="Regular" size="13" fg="192,192,192" mouseOverFg="0,192,192,192"><child id="Title" width="Panel.20"/></element>
+		<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-2" yAnchor="#Cover.Bottom" y="56" widthDock="x:#SpacerR.Left" width="0" align="left" font="Segoe UI" style="Regular" size="8" fg="128,128,128" mouseOverFg="0,192,192,192"><child id="Album" width="Panel.20"/></element>
+		<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-2" yAnchor="#Cover.Bottom" y="70" widthDock="x:#SpacerR.Left" width="0" align="left" font="Segoe UI" style="Regular" size="8" fg="192,192,192" mouseOverFg="0,192,192,192"><child id="Artist" width="Panel.20"/></element>
+	</element>
+
+	<!-- Music Controls -->
+	<element type="PlayerBar" xAnchor="Panel.0" x="0" yAnchor="Panel.0" y="0" width="0" height="0"/>
+
+	<element type="Block" xAnchor="#SpacerC.0" x="0" yAnchor="#Cover.Bottom" y="0" widthDock="x:Panel.Right" width="0" heightDock="y:Panel.Bottom" height="0" fg="0,255,255,255" mouseOverFg="255,255,255,255" bg="0,0,0,0" mouseOverBg="0,0,0,0">
+		<element type="Text" xAnchor="#SpacerC.100" x="-277" yAnchor="#Cover.Bottom" y="74" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="13" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="PlayPrevious">&#xE100;</element>
+
+		<element type="Text" xAnchor="#SpacerC.100" x="-213" yAnchor="#Cover.Bottom" y="74" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="13" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="PlayPause" visibleTrigger="Playing">&#xE103;</element>
+		<element type="Text" xAnchor="#SpacerC.100" x="-213" yAnchor="#Cover.Bottom" y="74" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="13" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="PlayPause" visibleTrigger="NotPlaying">&#xE102;</element>
+
+		<element type="Text" xAnchor="#SpacerC.100" x="-149" yAnchor="#Cover.Bottom" y="74" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="13" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="PlayNext">&#xE101;</element>
+
+		<!-- Toolbar -->
+		<element type="Text" xAnchor="#SpacerC.100" x="-85" yAnchor="#Cover.Bottom" y="74" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="13" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="OpenNowPlayingAssistant">&#xE094;</element>
+
+		<element type="Text" xAnchor="#SpacerC.100" x="-21" yAnchor="#Cover.Bottom" y="74" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="13" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="OpenAutoHidePanel:#PanelQueue;">&#xE14C;</element>
+	</element>
+
+</root>

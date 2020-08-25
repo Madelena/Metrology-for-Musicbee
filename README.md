@@ -14,7 +14,7 @@ Metrology is a practical series of app customizations and redesigns aimed at bri
 - [Credits](#credits)
 
 ## Skins
-There are 5 skins in development:
+There are 6 skins in development:
 
 **Zune**: A detailed and accurate replica of the Zune/WP7 Music user interface.
 
@@ -24,7 +24,7 @@ There are 5 skins in development:
 
 <img alt="Fluent Carousel" src="https://i.imgur.com/woTA1aK.png" width="75%"/>
 
-**Fluent**: A bold and clean UI that fits well with Windows 10. Optionally, a 4K fullscreen version is available.
+**Fluent**: A bold and clean UI that fits well with Windows 10. Optionally, a lo-res (100% scaling on Windows 10) and a 4K fullscreen version are available.
 
 <img alt="Fluent" src="https://i.imgur.com/XbH7R0T.png" width="75%"/>
 <img alt="Fluent" src="https://i.imgur.com/H727vhS.jpg" width="75%"/>
@@ -32,6 +32,10 @@ There are 5 skins in development:
 **Fluent Wall**: A beautiful display of the next dozens of tracks on a grid backdrop.
 
 <img alt="Fluent Wall" src="https://i.imgur.com/9cv1bGp.png" width="75%"/>
+
+**Metro**: A wall of text for your wall of sound. Resembles early promos of the Metro design system.
+
+<img alt="Metro" src="https://i.imgur.com/gZBtCrr.png" width="75%"/>
 
 ## How to Install
 
@@ -96,7 +100,7 @@ In some Fluent skins, the album cover can be resized to reveal a larger album co
 ## System Requirements
 * MusicBee 3.x
 * Windows 10 with the Segoe MDL2 Assets font. Without it all the icons won't work. If you aren't on Windows 10 1903 or later, download the font here: https://aka.ms/SegoeFonts
-* 1080p screen resolution minimum, and the special 4K version needs a 4K screen.
+* 1080p screen resolution minimum and 150% window scaling unless otherwise stated. The special 4K version needs a 4K screen.
 
 ## Credits
 

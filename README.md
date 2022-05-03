@@ -4,6 +4,8 @@ Metrology is a practical series of app customizations and redesigns aimed at bri
 
 [MusicBee](https://getmusicbee.com) is a highly customizable audiophile-grade music player for Windows. This is a skin for the Theater Mode, which displays the currently playing track in a large or full screen format.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A5564KD6)
+
 ## Table of Contents
 
 - [Skins](#skins)
